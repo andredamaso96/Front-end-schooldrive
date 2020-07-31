@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+<script type="text/javascript" src="js.jquery.js"></script>
+<script type="text/javascript" src="js.bootstrap.js" language="javascript"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="function2.js" language="javascript"></script>
+
+<div class="container-fluid top_bar">
+<div class="container">
+<div class="row">
+	<div class="col-sm-6">
+	<a class="boasvindas" style="font-size:17px; color: #fff;"></a>
+	</div>
+	<div class="col-sm-6 text-right admin">
+		<a href="#" class="social_icons"><i class="fa fa-user" style="font-size:17px; color: #fff;"></i></a>Administrador
+	</div>
+	
+</div>
+	
+</div>
+	
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
+	<div class="container">
+		<a class="navbar-brand" href="index-admin.html"><img src="img/logo1.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pré-Inscrição</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="precos-admin.html">Preços</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Horários</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Promoções</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre Nós</a>
+					</li>
+				
+				</ul>
+			</div>
+	</div>
+	
+</nav>
+
+<div id = "preco">
+<section>
+<div class="container">
+<ul class="breadcrumb">
+	<li><a href="index-admin.html">Início</a></li>
+	<li><a href="precos-admin.html">Preços</a></li>
+	<li>Editar</li>
+
+</ul>
+
+<div class="marca-header">
+	<h2><b>Editar</b></h2>
+	</div>
+
+	
+		<article>
+		 <div id = "div_sugestoesCabecalho" class="jumbotron">
+		 <div class="row">
+		 <div class="col-md-6">
+		 	<table class="table" id = "table_editar">
+            <tbody>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Nome Categoria:</label></b><br/><input id="input_nomeCat" type="text" title="Nome de cliente ou utilizador" class="form-control" placeholder="Categoria AM" aria-describedby="sizing-addon3"></input></td>
+                
+              </tr>
+
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Informações:</label></b><br/>
+								<textarea id="informacao" rows="8"  name="assunto" cols="40" class="form-control" placeholder="É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação" aria-describedby="sizing-addon3"></textarea></td>
+                
+              </tr>
+
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Preço:</label></b><br/><input id="input_preco" type="text" title="Nome de cliente ou utilizador" class="form-control" placeholder="59" aria-describedby="sizing-addon3"></input></td>
+                
+              </tr>
+
+
+               <td id = "tr_linha_tableSugestoes">
+
+               <button id="btn_publicarSugestao"  type="submit" onclick="btnConcluir()" class="btn btn-primary">Editar</button>
+                
+              </tr>
+
+            
+
+
+              </tbody>
+              </table>
+
+</div>
+<div class="col-md-6">
+	<img data-src="holder.js/100%x200" alt="100%x200" src="img/ciclomotores1.png" data-holder-rendered="true" style="height: 90%; width: 100%; display: block;">
+
+</div>
+
+              </div>
+		 </div>
+
+          </article>      
+       </section>
+	
+</div>
+
+<hr class="my-4">
+<!--- Connect -->
+<div class="container">
+<div class="row text-center padding">
+	<div class="col-12">
+		
+		<h2>Siga-nos</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Contactos</h5>
+			<hr class="light">
+			<p>Telefone: 269 084 796</p>
+			<p>Telemóvel: 965 409 071</p>
+			<p>Email: edc.sudoeste@gmail.com</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Funcionamento</h5>
+			<hr class="light">
+			<p>De 2ª a 6ª Feira: 9:00h - 21:00h</p>
+			<p>Sábado: 9:00h - 13:00h
+</p>
+			<p>Fechado domingos e feriados</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Morada</h5>
+			<hr class="light">
+			<p>Rua Zeca Afonso 4, Sines</p>
+			<p>7520-246 Sines
+</p>
+			<p>Concelho de Sines e distrito de Setúbal</p>
+		</div>
+		<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy; ecsudoeste.pt</h5>
+		</div>
+	</div>
+	
+</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

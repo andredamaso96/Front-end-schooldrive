@@ -1,0 +1,51 @@
+[
+	{
+		"titulo" : "Categoria AM",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "59€"
+
+	},
+	{
+		"titulo" : "Categoria A1",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "248€"
+
+	},
+	{
+		"titulo" : "Categoria A2",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "248€"
+
+	},
+	{
+		"titulo" : "Categoria A",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "248€"
+
+	},
+	{
+		"titulo" : "Categoria B1",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "248€"
+
+	},
+	{
+		"titulo" : "Categoria B",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "348€"
+
+	},
+	{
+		"titulo" : "Categoria B+E",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "150€"
+
+	},
+	{
+		"titulo" : "Categoria C",
+		"informacao" : "É necessário para a se inscrever um Documento de Identificação, Nº Contribuinte, 1 Foto, Certificação de Nascimento, uma Cópia Identificação Encarregado Educação, e uma Autorização Encarregado Educação",
+		"preco" : "348€"
+
+	}
+
+]

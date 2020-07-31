@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+
+  
+}
+
+.top_bar{
+  background-color: #3B5998
+
+  
+}
+.social_icons{
+  margin-right: 5px;
+}
+
+.admin{
+  color: #fff;
+}
+
+.container{
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar-brand>img {
+      height: 100%;
+      padding: 0px; /* firefox bug fix */
+      width: auto;
+    }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: .8rem;
+}
+
+
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 370%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.rowTitles{
+      text-align: center;
+      padding: 20px;
+    }
+
+.thumbnail{
+      border: 1px solid #ddd; /* Gray border */
+        border-radius: 4px;  /* Rounded border */
+        padding: 5px; /* Some padding */
+        width: 200px; /* Set a small width */
+        height: 200px;
+    }
+
+    .thumbnail:hover{
+         box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+
+    .row ul{
+      list-style-type: none;
+    }
+.descricao{
+  margin-top: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+
+.dropdown .dropdown-menu li a{
+        color: black;
+      }
+
+.filtros a{
+  font-size: 1.0em;
+  padding: 0.5rem;
+}
+.fa-th{
+  color: #222;
+}
+.fa-th-list{
+  color: #222;
+}
+
+.social a{
+  font-size: 3.5em;
+  padding: 3rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover{
+  color: #d5d5d5;
+}
+footer{
+
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+  margin-top: 50px;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a{
+      font-size: 4em;
+      padding: 2rem;
+    }
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+  top: 45%; 
+}
+.carousel-caption h1{
+  font-size: 150%;
+}
+.carousel-caption .btn{
+  font-size: 65%;
+  padding: 8px 14px;
+}
+.social a{
+      font-size: 2.5em;
+      padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+.marca-header{
+
+
+  /*margin-top: 20px;*/
+
+ 
+}
+section{
+ 
+}
+
+article {
+    
+    
+  margin-bottom:15px;
+  margin-top: 25px;
+    
+}
+
+
+.form-group{
+  border: hidden;
+  
+  width: 70%;
+
+}
+
+.input-group.input-group-sm .form-control{
+  margin-bottom: 10px;
+}
+
+.required, .aviso{
+  color:orange;
+}
+
+
+#div_alertaSucesso{
+  
+  background-color:#30AC40;
+}
+
+#div_alertaErro{
+  display: none;
+  background-color:#DAA700;
+}
+
+
+.alert {
+    padding: 20px;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+#table_sugestoes{
+  width: 90%;
+  
+}
+
+
+
+.tr_linha_tableSugestoes{
+  border: hidden;
+}
+
+.p_asterisco{
+  width: auto;
+}
+
+.td_asterisco{
+  width: auto;
+}
+
+#td_btnSugestao{
+
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+#td_btnSugesta{
+
+  padding-top: 0px;
+}
+
+.table .jumbotron .p_sugestoesExpostas{
+  font-size: 14px;
+}
+
+.table .tr_sugestoesCorpo{
+  border: hidden; 
+}
+
+.table .tr_sugestoesCorpo .td_sugestoesCorpo{
+  width: 50%;
+}
+
+ul.breadcrumb{
+  background: none;
+  list-style: none;
+
+  padding: 15px;
+  padding-left: 0px;
+}
+
+ul.breadcrumb li{
+  display: inline-block;
+}
+
+ul.breadcrumb li + li:before{
+  content: "> ";
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul.breadcrumb li a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+
+
+.al{
+  background-color: #797a7f;
+}
+
+.imgPromocao{
+  margin: 5px;
+}

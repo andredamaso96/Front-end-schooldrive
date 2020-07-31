@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Escola de Condução Sudoeste</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+<script type="text/javascript" src="js.jquery.js"></script>
+<script type="text/javascript" src="js.bootstrap.js" language="javascript"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="function.js" language="javascript"></script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
+	<div class="container">
+		<a class="navbar-brand" href="index.html"><img src="img/logo1.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="pre-inscricao.html">Pré-Inscrição</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="precos.html">Preços</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Horários</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Promoções</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sobre Nós</a>
+					</li>
+					
+
+				</ul>
+			</div>
+	</div>
+	
+</nav>
+<section>
+<div class="container">
+<ul class="breadcrumb">
+	<li><a href="index.html">Início</a></li>
+	<li>Pré-Inscrição</li>
+
+</ul>
+<div class="marca-header">
+	<h2><b>Pré-Inscrição</b></h2>
+	</div>
+
+				<article>
+					
+        <div id = "div_sugestoesCabecalho" class="jumbotron">
+
+          <div id="inscricao">
+
+          <table class="table" id = "table_sugestoes">
+            <tbody>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Nome Completo:</label></b><br/><input id="input_nome" type="text" title="Nome Completo" class="form-control" placeholder="Nome Completo*" aria-describedby="sizing-addon3"></input></td>
+                
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Sexo:</label></b><br/><select size="1" id="input_sexo" name="Country" class="form-control" aria-describedby="sizing-addon3">
+									<option>Feminino*</option>
+									<option>Masculino</option></td>
+                
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Endereço Electrónico:</label></b><br/><input id="input_email" type="text" title="Endereço Electrónico" class="form-control" placeholder="Endereço Correio Electrónico*" aria-describedby="sizing-addon3"></input></input></td>
+               
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Número de Telemóvel:</label></b><br/><input id="input_telefone" type="text" title="Número de Telemóvel" class="form-control" placeholder="Número de Telemóvel*" aria-describedby="sizing-addon3"></input></td>
+              
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Morada:</label></b><br/><input id="input_morada" type="text" title="Morada" class="form-control" placeholder="Morada*" aria-describedby="sizing-addon3"></input></td>
+                
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Data:</label></b><br/><input type="date" id="input_data" class="form-control"  aria-describedby="sizing-addon3" /></input></td>
+              
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Categoria:</label></b><br/><select size="1" id="input_categoria" name="Country" class="form-control" aria-describedby="sizing-addon3" >
+									<option>Categoria AM</option>
+									<option>Categoria A1</option>
+									<option>Categoria A2</option>
+									<option>Categoria A</option>
+									<option>Categoria B1</option>
+									<option>Categoria B</option>
+									<option>Categoria B+E</option>
+									<option>Categoria C</option>
+
+								</select></td>
+                
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Como conheceu a nossa Escola?</label></b><br/><select size="1" id="input_pergunta" name="Country" class="form-control" aria-describedby="sizing-addon3" >
+									<option>Amigo*</option>
+									<option>Carro</option>
+									<option>Redes Sociais</option>
+									<option>Site</option>
+									<option>Viu a Escola</option>
+									<option>Publicidade</option>
+									<option>Outro</option>
+			
+								</select></td>
+               
+              </tr>
+              <tr class = "tr_linha_tableSugestoes">
+                <td><label for="assunto">Alguma sugestão:</label></b><br/>
+								<textarea rows="8" id="assunto" name="assunto" cols="40" class="form-control" aria-describedby="sizing-addon3"></textarea></td>
+                
+              </tr>
+
+
+
+              <tr class = "tr_linha_tableSugestoes">
+                <td id = "td_campoObrigatorio"><p id="p_campoObrigatorio">* campo obrigatório</p></td>
+              </tr>
+              <tr id = "tr__linha_tableSugestoes_btn" class = "tr_linha_tableSugestoes">
+              
+                <td id = "td_btnSugestao"><button id="btn_publicarSugestao" type="button" class="btn btn-primary" data-toggle='modal' data-target='#myModal3'>Enviar</button> 
+                
+              </tr>
+              
+              <span id="avisoNome" class="aviso"></span>
+              <tr class = "tr_linha_tableSugestoes">
+              <td>
+							<div class="form-group" >
+							<h6>A informação preenchida neste formulário destina-se apenas a dar a conhecer à Escola a informação necessária para uma futura inscrição ou informação pretendida.</h6>
+							<h6>Após o preenchimento do formulário irá ser contactado via telefone ou email.</h6>
+							</div>
+							</td>
+							</tr>
+            </tbody>
+          </table>
+
+					
+		</div>
+		</div>
+		<div id="div_alertaErro" class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Campos por preencher</strong> Para confirmar os dados é necessário preencher todos os campos.
+        </div>
+        </div>
+				</article>
+
+				
+</div>
+</section>
+
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p>Deseja confirmar os dados?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+          <button type="button" class="btn btn-default" title='Adicionar promoção' data-dismiss="modal" onclick='btnInscricao()'>Sim</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<hr class="my-4">
+<!--- Connect -->
+<div class="container">
+<div class="row text-center padding">
+	<div class="col-12">
+		
+		<h2>Siga-nos</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Contactos</h5>
+			<hr class="light">
+			<p>Telefone: 269 084 796</p>
+			<p>Telemóvel: 965 409 071</p>
+			<p>Email: edc.sudoeste@gmail.com</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Funcionamento</h5>
+			<hr class="light">
+			<p>De 2ª a 6ª Feira: 9:00h - 21:00h</p>
+			<p>Sábado: 9:00h - 13:00h
+</p>
+			<p>Fechado domingos e feriados</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Morada</h5>
+			<hr class="light">
+			<p>Rua Zeca Afonso 4, Sines</p>
+			<p>7520-246 Sines
+</p>
+			<p>Concelho de Sines e distrito de Setúbal</p>
+		</div>
+		<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy; ecsudoeste.pt</h5>
+		</div>
+	</div>
+	
+</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
